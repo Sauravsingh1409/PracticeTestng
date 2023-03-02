@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="OrangeHRMLogin">
+		<classes>
+
+			<class name="com.Gaya.Test.OrangeHRM">
+				<methods>
+					<include name="LaunchApp"></include>
+					<include name="EnterLoginDetails"></include>
+					<include name="LaunchApp"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TestGoogle">
+		<classes>
+			
+			<class name="com.Gaya.Test.FirstTest" >
+			<methods>
+			
+			<include name="TestGoogle"></include>
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
